@@ -10,9 +10,9 @@
 
 
     <ImageView
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="50dp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="30dp"
         android:src="@drawable/bbm"
         android:layout_gravity="center"/>
     <TextView
@@ -27,7 +27,22 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        />
+        android:textSize="20"
+        android:text="silahkan masuk atau daftar"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="selanjutnya"/>
+
+    </RelativeLayout>
+
+
+
 
 
 </LinearLayout>
